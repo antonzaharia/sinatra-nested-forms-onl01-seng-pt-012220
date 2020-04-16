@@ -1,4 +1,6 @@
 require './environment'
+require_relative 'modules/pirate.rb'
+require_relative 'modules/ship.rb'
 
 module FormsLab
   class App < Sinatra::Base
